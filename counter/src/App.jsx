@@ -7,11 +7,17 @@ function App() {
 
   let add=()=>{
     counter++;
+    if(counter>20){
+      counter=20;
+    }
     // console.log({counter});
     setcount(counter);
   }
   let remove=()=>{
     counter--;
+    if(counter<0){
+      counter=0;
+    }
     // console.log(counter);
     setcount(counter);
 
