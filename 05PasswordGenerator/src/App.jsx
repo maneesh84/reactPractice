@@ -66,7 +66,7 @@ function App() {
           </div>
           <div className="m-7">
             <button
-              className="group inline-block rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-[2px] hover:text-white focus:ring-3 focus:outline-hidden"
+              className="group inline-block rounded-full bg-gradient-to-r from-purple-500 via-blue-500 to-cyan-500 p-[2px] hover:text-white focus:ring-3 focus:outline-hidden"
               onClick={() => {
                 copyPassword();
               }}
