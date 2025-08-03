@@ -1,0 +1,17 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #80abb3;
+}
+
+.container {
+  background-color: darkslategray;
+  width: 60vw;
+  height: auto;
+}
+#intputBox {
+  background-color: azure;
+}
