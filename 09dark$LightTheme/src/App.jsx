@@ -7,11 +7,11 @@ import ThemeContextProvider from "../context/ThemeContextProvider";
 
 function App() {
   const { Theme, setTheme } = useContext(ThemeContext);
-  console.log(Theme);
 
   useEffect(() => {
     document.querySelector("html").classList.remove("light", "dark");
-    document.querySelector("html").classList.add(themeMode);
+    document.querySelector("html").classList.add(Theme);
+    console.log(Theme);
   }, [Theme]);
   return (
     <ThemeContextProvider>

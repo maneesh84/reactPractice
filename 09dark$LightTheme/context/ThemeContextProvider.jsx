@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import ThemeContext from "./ThemeContext";
 
 const ThemeContextProvider = ({ children }) => {
-  const [Theme, setTheme] = useState("White");
+  const [Theme, setTheme] = useState("light");
   return (
-    <ThemeContext.Provider values={{ Theme, setTheme }}>
+    <ThemeContext.Provider value={{ Theme, setTheme }}>
       {children}
     </ThemeContext.Provider>
   );
